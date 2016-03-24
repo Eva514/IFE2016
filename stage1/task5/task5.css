@@ -22,11 +22,11 @@ header img {
 }
 header nav {
   float: right;
-  margin-top: -45px;
 }
 header ul li {
   float: left;
   margin-right: 25px;
+  margin-top: 15px;
 }
 header ul li a {
   text-decoration: none;
