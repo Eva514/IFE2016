@@ -1,0 +1,68 @@
+/*样式重置*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body, .wrapper, .slider, .persons, .main {
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+.wrapper {
+    background-color: lavenderblush;
+    overflow: hidden;
+    min-width: 460px;
+    word-break: break-all;
+}
+.wrapper img {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+/*团队名称*/
+.slider {
+    float: left;
+    margin-right: 20px;
+    width: 18%;
+}
+.slider img {
+    display: inline-block;
+}
+.slider h3 {
+    float: right;
+}
+
+/*团队成员列表*/
+.persons {
+    width: 10%;
+    float: right;
+    margin-left: 20px;
+}
+.persons img {
+    margin-bottom: 20px;
+}
+
+/*任务列表*/
+.main {
+    width: 65%;
+    float: left;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.main h3 {
+    margin-bottom: 20px;
+}
+.main ul{
+    list-style: none;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.main ul li{
+    margin-bottom: 10px;
+}
