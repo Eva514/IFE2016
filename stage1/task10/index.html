@@ -7,6 +7,9 @@
         *{
             box-sizing: border-box;
         }
+        p{
+            color: red;
+        }
         .flex-container{
             display: flex;
             justify-content: space-between;
@@ -50,6 +53,8 @@
     </style>
 </head>
 <body>
+   <P>要求：屏幕宽度大于640px时，四个元素高度的中间对齐，第一个元素紧贴浏览器左边，第四个元素紧贴浏览器右边，其它元素等距离分布；
+   屏幕宽度小于640px时，四个元素上方对齐，水平方向均匀分布，如果一行元素的宽度超过浏览器的宽度，则被挤到下一排，第四个元素位于最前面</P>
    <div class="flex-container">
        <div class="item1"></div>
        <div class="item2"></div>
