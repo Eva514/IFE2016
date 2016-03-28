@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <!--iphone设备中的safari私有meta标签，它表示：允许全屏模式浏览-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!--是iphone的私有标签，它指定的iphone中safari顶端的状态条的样式-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="telephone=no" name="format-detection">
+    <title>任务11:移动Web页面布局实践</title>
+    <link rel="stylesheet" type="text/css" href="task11.css">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                scale = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if(clientWidth>=640){
+                        docEl.style.fontSize = '100px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                    }
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, scale, false);
+            doc.addEventListener('DOMContentLoaded', scale, false);
+        })(document, window);
+    </script>
+</head>
+<body>
+   <div class="container">
+       <header>
+           <a href="#" class="back">
+               <i class="iconfont icon-back">&#xe747;</i>
+               <span>返回</span>
+           </a>
+           <h4>这是标题</h4>
+       </header>
+       <nav>
+           <ul>
+               <li><a href="#">导航</a></li>
+               <li class="active"><a href="#">导航</a></li>
+               <li><a href="#">导航</a></li>
+               <li><a href="#">导航</a></li>
+               <li><a href="#">导航</a></li>
+           </ul>
+       </nav>
+       <section class="banner">
+           <a href="#"><img src="images/banner.jpg" alt=""></a>
+       </section>
+       <section class="section label-col">
+           <div class="label">
+               <ul class="label-list">
+                   <li>
+                       <a href="#">
+                           <img src="images/label.png">
+                           <span>标签</span>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#">
+                           <img src="images/label.png">
+                           <span>标签</span>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#">
+                           <img src="images/label.png">
+                           <span>标签</span>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#">
+                           <img src="images/label.png">
+                           <span>标签</span>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#">
+                           <img src="images/label.png">
+                           <span>标签</span>
+                       </a>
+                   </li>
+               </ul>
+           </div>
+
+           <div class="col">
+               <ul class="col-list">
+                   <li class="list1">
+                       <a href="#">
+                           <img src="images/list1.jpg">
+                           <h4>分栏一</h4>
+                           <h5>分栏小标题</h5>
+                       </a>
+                   </li>
+                   <li class="list2">
+                       <a href="#">
+                           <img src="images/list2.jpg">
+                           <h4>分栏二</h4>
+                           <h5>分栏小标题</h5>
+                       </a>
+                   </li>
+                   <li class="list3">
+                       <a href="#">
+                           <img src="images/list3.jpg">
+                           <h4>分栏三</h4>
+                           <h5>分栏小标题</h5>
+                       </a>
+                   </li>
+               </ul>
+           </div>
+       </section>
+
+       <section class="section module">
+           <h4 class="mod-title">模块一</h4>
+           <div class="mod-content">
+               <div class="mod-content-img">
+                   <img src="images/module.jpg" alt="">
+               </div>
+               <div class="mod-content-list">
+                   <ul>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                   </ul>
+               </div>
+           </div>
+           <div class="mod-content">
+               <div class="mod-content-img">
+                   <img src="images/module.jpg" alt="">
+               </div>
+               <div class="mod-content-list">
+                   <ul>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                   </ul>
+               </div>
+           </div>
+       </section>
+
+       <section class="section module">
+           <h4 class="mod-title">模块二</h4>
+           <div class="mod-content">
+               <div class="mod-content-img">
+                   <img src="images/module.jpg" alt="">
+               </div>
+               <div class="mod-content-list">
+                   <ul>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                   </ul>
+               </div>
+           </div>
+           <div class="mod-content">
+               <div class="mod-content-img">
+                   <img src="images/module.jpg" alt="">
+               </div>
+               <div class="mod-content-list">
+                   <ul>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                       <li>这是文案</li>
+                   </ul>
+               </div>
+           </div>
+       </section>
+
+       <section class="news">
+           <div class="news-item1">
+               <div class="news-item-img">
+                   <img src="images/news.jpg" alt="">
+               </div>
+               <div class="news-item-content">
+                   <h4 class="title">这是文章标题字号是22的文章标题</h4>
+                   <span class="time">文章来源 六分钟前</span>
+               </div>
+           </div>
+           <div class="news-item1">
+               <div class="news-item-img">
+                   <img src="images/news.jpg" alt="">
+               </div>
+               <div class="news-item-content">
+                   <h4 class="title">这是文章标题字号是22的文章标题</h4>
+                   <span class="time">文章来源 六分钟前</span>
+               </div>
+           </div>
+           <div class="news-item2">
+               <h4 class="title">这是文章标题字号是22的文章标题</h4>
+               <div class="img-box">
+                   <div class="img">
+                       <img src="images/news.jpg" alt="">
+                   </div>
+                   <div class="img">
+                       <img src="images/news.jpg" alt="">
+                   </div>
+                   <div class="img">
+                       <img src="images/news.jpg" alt="">
+                   </div>
+               </div>
+               <div class="time-box">
+                   <span class="time">文章来源 六分钟前</span>
+               </div>
+           </div>
+       </section>
+   </div>
+</body>
+</html>
