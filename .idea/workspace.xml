@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d13853-cf5f-44bc-8c5d-96fff2578d3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/images/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/fonts/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/fonts/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/fonts/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/images/label.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/images/list1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/images/list2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/images/list3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/images/module.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/images/news.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/fonts/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stage1/task11/task11.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="IFE2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="task11.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task11.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stage1/task11/task11.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17844523">
-              <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+            <state vertical-scroll-proportion="-6.7083335">
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,8 +37,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stage1/task11/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.75">
-              <caret line="205" column="57" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="57" />
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6625442">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -87,10 +84,10 @@
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/stage1/task10/task10.css" />
         <option value="$PROJECT_DIR$/stage2/task13/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stage1/task10/index.html" />
         <option value="$PROJECT_DIR$/stage1/task11/index.html" />
         <option value="$PROJECT_DIR$/stage1/task11/task11.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -495,12 +492,12 @@
       <workItem from="1458783391268" duration="171000" />
       <workItem from="1458800171956" duration="7238000" />
       <workItem from="1458872958021" duration="16244000" />
-      <workItem from="1459133650279" duration="8157000" />
+      <workItem from="1459133650279" duration="8388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48066000" />
+    <option name="totallyTimeSpent" value="48297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="6" />
@@ -566,6 +563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026501767">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stage1/task10/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3975265">
@@ -762,18 +753,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stage1/task11/index.html">
+    <entry file="file://$PROJECT_DIR$/stage1/task11/task11.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75">
-          <caret line="205" column="57" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="57" />
+        <state vertical-scroll-proportion="-6.7083335">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stage1/task11/task11.less">
+    <entry file="file://$PROJECT_DIR$/stage1/task11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17844523">
-          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6625442">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
         </state>
       </provider>
