@@ -134,7 +134,7 @@ function initGraTimeForm() {
         addHandler(pageRadio[i], 'click', graTimeChange);
     }
 
-};
+}
 
 /**
  * 初始化城市Select下拉选择框中的选项
