@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务30：表单（二）多个表单项的动态校验</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    table{
+        margin: 20px auto;
+    }
+    table td{
+        vertical-align: top;
+        padding: 10px;
+    }
+    table td:first-child{
+        text-align: right;
+        line-height: 40px;
+    }
+    table td:last-child input[placeholder]{
+        display: block;
+        width: 500px;
+        height: 40px;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    .warn{
+        display: block;
+        font-size: 14px;
+        color: #aaa;
+        padding: 5px;
+    }
+    #submit{
+        width: 80px;
+        height: 40px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        background-color: #2f79ba;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    #submit:hover{
+        background-color: #23527b;
+    }
+</style>
+<body>
+<form method="post" action="">
+    <table>
+        <tr>
+        	<td><label for="name">名称</label></td>
+        	<td>
+        		<input type="text" id="name" placeholder="请输入名称">
+        		<span class="warn"></span>
+        	</td>
+        </tr>
+        <tr>
+        	<td><label for="psd">密码</label></td>
+        	<td>
+        		<input type="password" id="psd" placeholder="请输入密码">
+        		<span class="warn"></span>
+        	</td>
+        </tr>
+        <tr>
+        	<td><label for="confirmPsd">确认密码</label></td>
+        	<td>
+        		<input type="password" id="confirmPsd" placeholder="请确认密码">
+        		<span class="warn"></span>
+        	</td>
+        </tr>
+        <tr>
+        	<td><label for="email">邮箱</label></td>
+        	<td>
+        		<input type="text" id="email" placeholder="请输入邮箱地址">
+        		<span class="warn"></span>
+        	</td>
+        </tr>
+        <tr>
+        	<td><label for="phone">手机</label></td>
+        	<td>
+        		<input type="text" id="phone" placeholder="请输入手机号码">
+        		<span class="warn"></span>
+        	</td>
+        </tr>
+        <tr>
+        	<td></td>
+        	<td>
+        		<input type="submit" id="submit" value="提交">
+        	</td>
+        </tr>
+    </table>
+</form>
+
+<script src="task30.js"></script>
+</body>
+</html>
